@@ -1,4 +1,4 @@
-##Spring Boot Exercise 403
+##Spring Boot Exercise 403 after Lecture 405
 The application has 3 pages: 
     * a course page, 
     * a teacher page and 
@@ -11,4 +11,8 @@ The permissions on the security is that only people with the admin role can see 
 and only people with the user role can see the student page.
 
 Thank you!
-by Ashenafi Maru"Spring Security Lecture 404 with Exercise 403 username/pwd = 1)bart/bart is USER 2)ted/ted is ADMIN 3) super/super has both USER and ADMIN priviledges" 
+by Ashenafi Maru"Spring Security Lecture 404 with Exercise 403 
+##username/pwd = 
+    1)bart/bart is USER 
+    2)ted/ted is ADMIN 
+    3) super/super has both USER and ADMIN priviledges" 

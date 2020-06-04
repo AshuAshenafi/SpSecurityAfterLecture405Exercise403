@@ -34,6 +34,8 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
                 .logout()
                 .logoutSuccessUrl("/login?logout=true").permitAll();
 
+        //The following two line of code are mandatory to access
+        // h2-console even if you are authorized.
         httpSecurity.csrf().ignoringAntMatchers("/h2-console/**");
         httpSecurity.headers().frameOptions().sameOrigin();
     }
